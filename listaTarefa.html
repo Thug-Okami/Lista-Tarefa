@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ListaTarefa</title>
+    <link rel="stylesheet" href="listaTarefa.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+            <section>
+                <div class="centro2">    
+                    <h1><img src="Hand-drawn-correct-icon-on-transparent-background-PNG.png" alt="logo" height="40px" style="opacity: 0;"><img src="Hand-drawn-correct-icon-on-transparent-background-PNG.png" alt="logo" height="40px" style="opacity: 0;"><img src="Hand-drawn-correct-icon-on-transparent-background-PNG.png" alt="logo" height="40px" style="opacity: 0;"><img src="Hand-drawn-correct-icon-on-transparent-background-PNG.png" alt="logo" height="40px">Lista de tarefas app</h1>
+                </div>   
+            </section>
+    </header>
+    <main>
+        <div class="centro">
+             <form id="tarefaForm">
+                <div class="centro2"> 
+                    <input type="text" name="" placeholder="Nome da Tarefa" id="tarefaNome">
+                    <select name="Status" id="idStatus">
+                        <option value="" hidden>Status</option>
+                        <option value="Pendente">Pendente</option>
+                        <option value="Realizando">Realizando</option>
+                        <option value="Cumprida">Cumprida</option>
+                    </select>
+                    <input type="date" name="" id="day">
+                    <button id="btnAdd">Adicionar</button>
+            </div>
+        </form>
+            <table id="idLT">
+                <tbody></tbody>
+            </table>
+        </div>
+    </main>
+</body>
+<script type="text/javascript" src="listaTarefa.js"></script>
+</html>
